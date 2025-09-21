@@ -21,7 +21,7 @@ const products = [
         id: 15,
         title: "Baby Giraffe Pattern",
         image: "https://public-files.gumroad.com/v4sl196p6t9jok06z5c3wdzozb3g",
-        description: "Crochet a 9-inch baby giraffe with long legs and spots. Beginner-friendly pattern with step-by-step instructions and photo tutorials for neck shaping.",
+        description: "Crochet a baby giraffe with long legs and spots. Beginner-friendly pattern with step-by-step instructions and photo tutorials for neck shaping.",
         originalPrice: 14.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/baby-giraffe-pattern?wanted=true"
@@ -30,7 +30,7 @@ const products = [
         id: 16,
         title: "Baby Yoda Among Us Pattern",
         image: "https://public-files.gumroad.com/htanj3e225qdbh8q9ymysq54yl48",
-        description: "Crochet a 6-inch Baby Yoda in an Among Us spacesuit. Intermediate pattern with instructions for helmet and tiny arms. Perfect for fans of both franchises!",
+        description: "Crochet a Baby Yoda in an Among Us spacesuit. Intermediate pattern with instructions for helmet and tiny arms. Perfect for fans of both franchises!",
         originalPrice: 16.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/baby-yoda-among-us-pattern?wanted=true"
@@ -39,7 +39,7 @@ const products = [
         id: 17,
         title: "Bubbles the Bird Pattern",
         image: "https://public-files.gumroad.com/p9mw857toyjaqcy73pb2w6pbjzn4",
-        description: "Crochet a 5-inch Bubbles the Bird with bright feathers. Beginner-friendly pattern with instructions for color combinations and wing styles. Great for decor!",
+        description: "Crochet a Bubbles the Bird with bright feathers. Beginner-friendly pattern with instructions for color combinations and wing styles. Great for decor!",
         originalPrice: 12.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/bubbles-the-bird-pattern?wanted=true"
@@ -66,7 +66,7 @@ const products = [
         id: 20,
         title: "Marsupilami Pattern",
         image: "https://public-files.gumroad.com/4lahlhkmhbe040q1hn9e4wrvukne",
-        description: "Crochet a 10-inch Marsupilami with a long, curly tail. Advanced pattern with instructions for poseable limbs and spots. Ideal for adventurous crafters!",
+        description: "Crochet a Marsupilami with a long, curly tail. Advanced pattern with instructions for poseable limbs and spots. Ideal for adventurous crafters!",
         originalPrice: 16.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/marsupilami-pattern?wanted=true"
@@ -75,7 +75,7 @@ const products = [
         id: 21,
         title: "Mini Totoro Pattern",
         image: "https://public-files.gumroad.com/gio3bilxycjgozb6n4i8ui5dut64",
-        description: "Crochet a 5-inch Mini Totoro with a leaf accessory. Beginner-friendly pattern with instructions for iconic grin and whiskers. Perfect for Totoro fans!",
+        description: "Crochet a Mini Totoro with a leaf accessory. Beginner-friendly pattern with instructions for iconic grin and whiskers. Perfect for Totoro fans!",
         originalPrice: 13.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/mini-totoro-pattern?wanted=true"
@@ -84,7 +84,7 @@ const products = [
         id: 22,
         title: "Poliwag Pokémon Pattern",
         image: "https://public-files.gumroad.com/grlkp39q28d2vrpca5eysx1pho16",
-        description: "Crochet a 6-inch Poliwag with spiral belly. Intermediate pattern with instructions for tail and glossy finish. Great for Pokémon collectors!",
+        description: "Crochet a Poliwag with spiral belly. Intermediate pattern with instructions for tail and glossy finish. Great for Pokémon collectors!",
         originalPrice: 15.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/poliwag-pattern?wanted=true"
@@ -102,7 +102,7 @@ const products = [
         id: 24,
         title: "Turtle Pattern",
         image: "https://public-files.gumroad.com/0jqfjp3l1vsa9n8ytq5wzi3lnfuq",
-        description: "Crochet a 6-inch turtle with a removable shell. Beginner-friendly pattern with instructions for textured shell stitching. Great for gifts!",
+        description: "Crochet a turtle with a removable shell. Beginner-friendly pattern with instructions for textured shell stitching. Great for gifts!",
         originalPrice: 12.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/turtle-pattern?wanted=true"
@@ -129,7 +129,7 @@ const products = [
         id: 27,
         title: "Avocado Keychain Pattern",
         image: "https://public-files.gumroad.com/r0xk47rvzenr9i1wnwu80rgva9bp",
-        description: "Crochet a 3-inch avocado keychain with a pit. Beginner-friendly pattern with instructions for keychain loop. Perfect for gifting or personal use!",
+        description: "Crochet a avocado keychain with a pit. Beginner-friendly pattern with instructions for keychain loop. Perfect for gifting or personal use!",
         originalPrice: 10.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/avocado-keychain-pattern?wanted=true"
@@ -147,7 +147,7 @@ const products = [
         id: 29,
         title: "Baby Dragon Pattern",
         image: "https://public-files.gumroad.com/fcbi6t8di7wtwxt85ffc1ipl3qv0",
-        description: "Crochet a 6-inch baby dragon with tiny wings. Intermediate pattern with metallic yarn scales and optional fire effect. Great for fantasy fans!",
+        description: "Crochet a baby dragon with tiny wings. Intermediate pattern with metallic yarn scales and optional fire effect. Great for fantasy fans!",
         originalPrice: 15.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/baby-dragon-pattern?wanted=true"
@@ -156,7 +156,7 @@ const products = [
         id: 30,
         title: "Baby Hulk Pattern",
         image: "https://public-files.gumroad.com/b3hupfvb6wdg6hdmwi42gbggwoj2",
-        description: "Crochet a 6-inch Baby Hulk with green skin and shorts. Intermediate pattern with instructions for muscular shaping and facial expression. Fun for superhero fans!",
+        description: "Crochet a Baby Hulk with green skin and shorts. Intermediate pattern with instructions for muscular shaping and facial expression. Fun for superhero fans!",
         originalPrice: 16.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/baby-hulk-pattern?wanted=true"
@@ -165,7 +165,7 @@ const products = [
         id: 31,
         title: "Baby Seal Pattern",
         image: "https://public-files.gumroad.com/3lo4jqhzv8i54ckpscqyic00uefl",
-        description: "Crochet a 6-inch baby seal with flippers. Beginner-friendly pattern with instructions for shiny eyes and smooth texture. Perfect for cuddly gifts!",
+        description: "Crochet a baby seal with flippers. Beginner-friendly pattern with instructions for shiny eyes and smooth texture. Perfect for cuddly gifts!",
         originalPrice: 12.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/baby-seal-pattern?wanted=true"
@@ -174,7 +174,7 @@ const products = [
         id: 32,
         title: "Baby Spider Pattern",
         image: "https://public-files.gumroad.com/srkohk8o29627b4kzdy5f4xzocbg",
-        description: "Crochet a 4-inch baby spider with big eyes. Beginner-friendly pattern with instructions for fuzzy texture and leg positioning. Cute and quirky!",
+        description: "Crochet a baby spider with big eyes. Beginner-friendly pattern with instructions for fuzzy texture and leg positioning. Cute and quirky!",
         originalPrice: 10.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/baby-spider-pattern?wanted=true"
@@ -183,7 +183,7 @@ const products = [
         id: 33,
         title: "Bat Pattern",
         image: "https://public-files.gumroad.com/e5qkp094ho43ow7ez4nkseltq81p",
-        description: "Crochet a 6-inch Halloween bat with spreadable wings. Intermediate pattern with instructions for wing shaping and hanging loop. Spooky fun!",
+        description: "Crochet a Halloween bat with spreadable wings. Intermediate pattern with instructions for wing shaping and hanging loop. Spooky fun!",
         originalPrice: 14.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/bat-pattern?wanted=true"
@@ -192,7 +192,7 @@ const products = [
         id: 34,
         title: "Bear Couple Keychain Pattern",
         image: "https://public-files.gumroad.com/x4fhqcvtlx06j79f62quz17t5vmb",
-        description: "Crochet two 3-inch bears with heart accessories. Beginner-friendly pattern with keychain loops. Perfect for Valentine’s Day or couple gifts!",
+        description: "Crochet two bears with heart accessories. Beginner-friendly pattern with keychain loops. Perfect for Valentine’s Day or couple gifts!",
         originalPrice: 12.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/bear-couple-keychain-pattern?wanted=true"
@@ -237,7 +237,7 @@ const products = [
         id: 39,
         title: "Bear Keychain Pattern",
         image: "https://public-files.gumroad.com/6zz4asvprn9r064m10l4i2q342g2",
-        description: "Crochet a 3-inch bear keychain. Beginner-friendly pattern with instructions for keychain loop. Perfect for gifting or personal use!",
+        description: "Crochet a bear keychain. Beginner-friendly pattern with instructions for keychain loop. Perfect for gifting or personal use!",
         originalPrice: 10.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/bear-keychain-pattern?wanted=true"
@@ -246,7 +246,7 @@ const products = [
         id: 40,
         title: "Bee Pattern",
         image: "https://public-files.gumroad.com/seizj1b6u41p3kl6c3im7fay35am",
-        description: "Crochet a 5-inch bee with stripes and wings. Beginner-friendly pattern with instructions for antenna shaping and color changes. Buzzing fun!",
+        description: "Crochet a bee with stripes and wings. Beginner-friendly pattern with instructions for antenna shaping and color changes. Buzzing fun!",
         originalPrice: 12.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/bee-pattern?wanted=true"
@@ -264,7 +264,7 @@ const products = [
         id: 42,
         title: "Bird Keychain Pattern",
         image: "https://public-files.gumroad.com/ktlx44r7g380fs7hp0pn9kfw5qh4",
-        description: "Crochet a 3-inch bird keychain with a beak. Beginner-friendly pattern with instructions for keychain loop. Perfect for gifting or personal use!",
+        description: "Crochet a bird keychain with a beak. Beginner-friendly pattern with instructions for keychain loop. Perfect for gifting or personal use!",
         originalPrice: 10.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/bird-keychain-pattern?wanted=true"
@@ -336,7 +336,7 @@ const products = [
         id: 50,
         title: "Winnie the Pooh Keychain Pattern",
         image: "https://public-files.gumroad.com/vgomf38msog7linz3jmmvvob2n72",
-        description: "Crochet a 3-inch Winnie the Pooh keychain with honey pot. Beginner-friendly pattern for fans. Perfect for gifting or personal use!",
+        description: "Crochet a Winnie the Pooh keychain with honey pot. Beginner-friendly pattern for fans. Perfect for gifting or personal use!",
         originalPrice: 10.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/winnie-the-pooh-keychain-pattern?wanted=true"
@@ -363,7 +363,7 @@ const products = [
         id: 53,
         title: "Glow in the Dark Ghost Pattern",
         image: "https://public-files.gumroad.com/1lk5shu68orhjye2rwrtul6zsv63",
-        description: "Crochet a 5-inch glow-in-the-dark ghost for Halloween. Beginner-friendly pattern with instructions for eyes and floaty shape. Spooky fun!",
+        description: "Crochet a glow-in-the-dark ghost for Halloween. Beginner-friendly pattern with instructions for eyes and floaty shape. Spooky fun!",
         originalPrice: 12.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/glow-in-the-dark-ghost-pattern?wanted=true"
@@ -372,7 +372,7 @@ const products = [
         id: 54,
         title: "Christmas Gnome Pattern",
         image: "https://public-files.gumroad.com/so9v4hij7hnbnf7pmzg6ry29umpn",
-        description: "Crochet a 9-inch gnome with Santa hat and beard. Intermediate pattern for holiday decor or gifting. Festive and whimsical!",
+        description: "Crochet a gnome with Santa hat and beard. Intermediate pattern for holiday decor or gifting. Festive and whimsical!",
         originalPrice: 15.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/christmas-gnome-pattern?wanted=true"
@@ -390,7 +390,7 @@ const products = [
         id: 56,
         title: "Halloween Pumpkin Pattern",
         image: "https://public-files.gumroad.com/igu5lneo8rz1oveg4itce4jsenlh",
-        description: "Crochet a 6-inch pumpkin with carved face. Beginner-friendly pattern for Halloween decor. Includes instructions for stem and face details!",
+        description: "Crochet a pumpkin with carved face. Beginner-friendly pattern for Halloween decor. Includes instructions for stem and face details!",
         originalPrice: 12.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/halloween-pumpkin-pattern?wanted=true"
@@ -408,7 +408,7 @@ const products = [
         id: 58,
         title: "Ice Cream Keychain Pattern",
         image: "https://public-files.gumroad.com/yzhfmuwsvalr6u9n7lib7xvztocw",
-        description: "Crochet a 3-inch ice cream keychain. Beginner-friendly pattern with instructions for cone and keychain loop. Sweet for gifting or personal use!",
+        description: "Crochet a ice cream keychain. Beginner-friendly pattern with instructions for cone and keychain loop. Sweet for gifting or personal use!",
         originalPrice: 10.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/ice-cream-keychain-pattern?wanted=true"
@@ -426,7 +426,7 @@ const products = [
         id: 39,
         title: "Bear Keychain Pattern",
         image: "https://public-files.gumroad.com/6zz4asvprn9r064m10l4i2q342g2",
-        description: "Crochet a 3-inch bear keychain. Beginner-friendly pattern with instructions for keychain loop. Perfect for gifting or personal use!",
+        description: "Crochet a bear keychain. Beginner-friendly pattern with instructions for keychain loop. Perfect for gifting or personal use!",
         originalPrice: 10.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/bear-keychain-pattern?wanted=true"
@@ -435,7 +435,7 @@ const products = [
         id: 60,
         title: "Mini Unicorn Keychain Pattern",
         image: "https://public-files.gumroad.com/n0diqjgszjm2j8pd66feyay8jnai",
-        description: "Crochet a 3-inch unicorn keychain with tiny horn. Beginner-friendly pattern with instructions for keychain loop. Magical for gifting!",
+        description: "Crochet a unicorn keychain with tiny horn. Beginner-friendly pattern with instructions for keychain loop. Magical for gifting!",
         originalPrice: 10.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/mini-unicorn-keychain-pattern?wanted=true"
@@ -480,7 +480,7 @@ const products = [
         id: 65,
         title: "Mini Witch Pattern",
         image: "https://public-files.gumroad.com/cdhfk0hpjbb7fq0681lzkc8trm4u",
-        description: "Crochet a 5-inch mini witch for Halloween. Beginner-friendly pattern with instructions for hat and broom. Perfect for spooky season decor!",
+        description: "Crochet a mini witch for Halloween. Beginner-friendly pattern with instructions for hat and broom. Perfect for spooky season decor!",
         originalPrice: 12.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/mini-witch-pattern?wanted=true"
@@ -498,7 +498,7 @@ const products = [
         id: 67,
         title: "Valentine Keychain Pattern",
         image: "https://public-files.gumroad.com/m4yuqbu70qx3ziqrzao0yi92qy83",
-        description: "Crochet a 3-inch heart-themed keychain. Beginner-friendly pattern with instructions for keychain loop. Perfect for Valentine’s Day gifts!",
+        description: "Crochet a heart-themed keychain. Beginner-friendly pattern with instructions for keychain loop. Perfect for Valentine’s Day gifts!",
         originalPrice: 10.99,
         salePrice: 4.99,
         purchaseLink: "https://maken8n.gumroad.com/l/valentine-keychain-pattern?wanted=true"
