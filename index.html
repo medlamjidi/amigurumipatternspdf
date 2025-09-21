@@ -72,6 +72,63 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
+		
+			.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-bar input {
+    padding: 0.75rem 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 500px;
+    transition: border-color 0.3s ease;
+}
+
+.search-bar input:focus {
+    outline: none;
+    border-color: #ff6b9d;
+    box-shadow: 0 0 5px rgba(255, 107, 157, 0.3);
+}
+
+.search-bar button {
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(135deg, #ff6b9d, #c66cdd);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-bar button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.search-bar button i {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .search-bar {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .search-bar input {
+        width: 100%;
+    }
+}
 
         .tagline {
             font-size: 0.9rem;
@@ -521,6 +578,13 @@
     <div class="container">
 	
         <h2 class="section-title" id="shop">All Items</h2>
+		<div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Search patterns..." aria-label="Search amigurumi patterns" onkeypress="if(event.key === 'Enter') searchProducts(this.value)">
+    <button onclick="searchProducts(document.getElementById('searchInput').value)" aria-label="Search">
+        <i class="fas fa-search"></i>
+    </button>
+</div>
+
         <div id="productsGrid" class="products-grid">
             <div class="loading">Loading beautiful patterns...</div>
         </div>
